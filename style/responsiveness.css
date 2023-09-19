@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px) {
+    .main-content {
+        flex-direction: column; 
+        text-align: center;
+    }
+    .face {
+        margin-bottom: 20px;
+        margin-right: 0rem;
+    }
+    .line {
+        display: flex;
+        flex-direction: column; /* Added to center vertically */
+        justify-content: center;
+        align-items: center;
+        border-bottom: .5px solid #ffffff;
+        width: 65%;
+    }
+}
+@media screen and (max-width: 892px) {
+    .browse {
+        flex-direction: column; 
+    }
+    .browse-2 {
+        flex-direction: column-reverse; 
+    }
+    .box-info {
+        text-align: center;
+    }
+    .box-info-2 {
+        text-align: center;
+    }
+}

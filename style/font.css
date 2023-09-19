@@ -25,4 +25,5 @@ h1, h2, h3, p {
 
 .heading h1 {
     color: #000000;
+    font-size: 2rem;
 }
