@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px) {
-    .main-content {
+    .about-author {
         flex-direction: column; 
         text-align: center;
     }
@@ -9,11 +9,16 @@
     }
     .line {
         display: flex;
-        flex-direction: column; /* Added to center vertically */
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         border-bottom: .5px solid #ffffff;
         width: 65%;
+    }
+    .features {
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 @media screen and (max-width: 892px) {
