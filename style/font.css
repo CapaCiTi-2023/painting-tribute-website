@@ -22,8 +22,40 @@ h1, h2, h3, p {
     color:white;
     font-size: 3rem;
 }
+/* .half-character {
+    position:relative;
+    display: inline-block;
+  
+    font-size: 3rem;
+}
+.half-character::before {
+    content: attr(data-char);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ff836b;
+    z-index: 1;
+
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%, 50% 50%);  
+  
+    clip-path: polygon(0% 50%, 50% 50%, 100% 50%, 100% 100%, 0% 100%); 
+  
+  }
+  .half-character::after {
+    content: attr(data-char);
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #3fcacc;
+  }  */
 
 .features h1 {
     color: #000000;
+    font-size: 2rem;
+}
+
+.box-header {
     font-size: 2rem;
 }

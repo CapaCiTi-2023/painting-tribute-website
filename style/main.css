@@ -1,70 +1,6 @@
 #about-page {
     background-color: #F4EBD0;
 }
-
-/* navigation */
-.top-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px 100px 5px 75px;
-    background-color: #B68D40;
-    gap: 5rem;
-    
-}
-.top-nav ul {
-    display: inline-flex;
-    list-style-type: none;
-    gap: 3rem;
-}
-.page-link {
-    font-family: 'Poppins', sans-serif;
-    color: #F4EBD0;
-    text-decoration: none; 
-    padding: 10px;
-    border-radius: 25px;
-    position: relative;
-    padding-bottom: 0.75rem;
-}
-.page-link::after {
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #F4EBD0;
-    transition: all 0.4s ease;
-}
-.page-link:hover::after {
-    width: 100%;
-}
-#icon1 {
-    color: #F4EBD0;
-}
-#icon2 {
-    color: #F4EBD0;
-}
-.line {
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    border-bottom: .5px solid #F4EBD0;
-    width: 90%;
-    margin: 0 auto; 
-}
-.line2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 0.1px solid #F4EBD0;
-    width: 50%;
-    margin: 0 auto; 
-}
-
 /* section 1 - main */
 .about-author {
     display: flex;
@@ -95,7 +31,7 @@
 }
 
 
-/* Browse section */
+/* feature section */
 .browse {
     display: flex;
     justify-content: space-between; 
@@ -123,11 +59,16 @@
 
 
 .border1 {
-    border: 1px solid black;
+    /* padding: .8rem; */
+    border-radius: 10px;
+    background-color: #caa663;
+    box-shadow: 2px 2px 6px #b9a88a;
 }
 .border {
-    padding: .5rem;
-    box-shadow: 1px 1px 2px #b9a88a;
+    border-radius: 10px;
+    /* padding: .8rem; */
+    background-color: #caa663;
+    box-shadow: 2px 2px 6px #b9a88a;
 }
 
 .box-info {
@@ -146,7 +87,7 @@
 }
 
 button {
-    border-radius: 1.1rem;
+    /* border-radius: 1.1rem; */
     background-color: #B68D40;
     border: none;
     padding: 10px 20px;
@@ -169,26 +110,6 @@ button a {font-size: 16px;color: #F4EBD0;text-align: center;text-decoration: non
 }
 .box-header {
     margin-bottom: 20px;
-}
-
-/* section 2 - art-gallery */
-#art-gallery {
-    background-color: #B68D40;
-}
-
-.gallery {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    padding: 50px;
-    background-color: #B68D40;
-    max-width: 1920px;
-    height: 100%;
-}
-
-.image-container {
-    width: 400px;
-
 }
 
 /* footer */
